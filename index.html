@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head profile="http://www.w3.org/2005/10/profile">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Edutech</title>
+        <meta name="description" content="Edutech - Projecte per a l'educació de la ciutadania en la tecnologia">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/ico" href="favicon.ico">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="js/vendor/jquery-1.10.1.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+				<img class="logo" src="img/logo.png"/>
+				<div class="language-selectors">
+					<a href="index_ca.html">CA</a>
+					<a href="index_es.html">ES</a>
+				</div>
+            </header>
+        </div>
+
+		<div id= "menu-container" class="">
+            <nav id="menu" class="wrapper clearfix">
+                <ul>
+                    <li><a onclick="slideTo('#about')">About</a></li>
+                    <li><a onclick="slideTo('#docs')">Docs</a></li>
+                    <li><a onclick="slideTo('#android')">Android</a></li>
+                    <li><a onclick="slideTo('#changelog')">Changelog</a></li>
+                    <li><a onclick="slideTo('#downloads')">Downloads</a></li>
+                    <li><a onclick="slideTo('#faq')">FAQ</a></li>
+                    <li><a onclick="slideTo('#team')">Team</a></li>
+                    <li><a onclick="slideTo('#community')">Community</a></li>
+                    <li><a onclick="slideTo('#contact')">Contact</a></li>
+                </ul>
+            </nav>
+		</div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+				<!-- SECTION -->
+<!--
+                <article id="">
+                    <header>
+                        <h1></h1>
+                        <p></p>
+                    </header>
+                    <section>
+                        <h2></h2>
+                        <p></p>
+                    </section>
+                    <section>
+                        <h2></h2>
+                        <p></p>
+                    </section>
+                </article>
+
+                <aside>
+                    <h3></h3>
+                    <p></p>
+                </aside>
+-->
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <h3>Copyright &copy; 2013 <a target="_blank" href="http://citilab.eu">Citilab</a></h3>
+            </footer>
+        </div>
+
+        <script src="js/main.js"></script>
+        <script src="js/vendor/portamento.js"></script>
+
+		<script>
+			$(document).ready(function() {
+				$('#menu-container').portamento({gap: 0});
+			});
+		</script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+
+    </body>
+</html>
