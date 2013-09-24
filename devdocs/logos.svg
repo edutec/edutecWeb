@@ -22,9 +22,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9899495"
-     inkscape:cx="252.56701"
-     inkscape:cy="760.39938"
+     inkscape:zoom="0.7"
+     inkscape:cx="399.22806"
+     inkscape:cy="498.54128"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
      showgrid="false"
@@ -57,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -68,10 +68,10 @@
     <rect
        style="fill:#dde9af;fill-opacity:1;stroke:none"
        id="rect3192"
-       width="307.14285"
+       width="541.42859"
        height="155.27147"
-       x="429.28574"
-       y="461.155" />
+       x="39.28574"
+       y="304.01215" />
     <g
        id="g3256"
        transform="translate(23.233508,51.517779)">
@@ -102,11 +102,17 @@
        style="fill:#2d5016;fill-opacity:1;stroke:none"
        d="m 106.48084,316.65948 0,55.82925 0,29.24393 0,23.92682 8,0 0,-23.92682 16.00001,0 0,23.92682 7.99999,0 0,-23.92682 24.00002,0 0,23.92682 8,0 0,-23.92682 16.00001,0 0,23.92682 8,0 0,-23.92682 0,-15.95122 7.99997,0 0,-37.21953 0,-15.95122 -7.99997,0 0,15.95122 -24.00001,0 0,-15.95122 -8,0 0,15.95122 0,23.92682 -48.00002,0 0,-55.82925 -8,0 z m 64.00002,39.87804 8,0 0,7.97562 -8,0 0,-7.97562 z m 16.00001,0 8,0 0,7.97562 -8,0 0,-7.97562 z"
        id="rect6639"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/bromagosa/edutec/devdocs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
        style="font-size:119.99999237px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2d5016;fill-opacity:1;stroke:none;font-family:Sans"
        id="text6745"
-       transform="matrix(0.45644608,0,0,0.45644608,-249.17516,-4.1866474)">
+       transform="matrix(0.46666667,0,0,0.46666667,-243.77229,-13.811639)"
+       inkscape:export-filename="/home/bromagosa/edutec/devdocs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          inkscape:connector-curvature="0"
          d="m 1046.2567,941.72382 0,-15 60,0 0,15 -60,0 m -15,-15 0,-45 15,0 0,15 45,0 0,-15 15,0 0,30 -60,0 0,15 -15,0 m 15,-45 0,-15 45,0 0,15 -45,0"

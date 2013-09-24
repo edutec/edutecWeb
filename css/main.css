@@ -13,7 +13,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
-	background: #F2ED79;
+	background: #dde9af;
 }
 
 ::-moz-selection {
@@ -90,25 +90,30 @@ body {
 }
 
 /* ===================
-    ALL: S4A Theme
+    ALL: Edutec Theme
    =================== */
 
 .header-container,
 .footer-container {
-    background: #254E69;
+    background: #c3d973;
 }
 .main aside {
 	border-radius: 2px;
 	background: #ff980d;
 }
 
+
+.footer-container {
+    border-top: 5px solid #2d5016;
+}
+
 .header-container, 
 #portamento_container #menu-container.fixed {
-    border-bottom: 8px solid #4088B6;
+    border-bottom: 5px solid #2d5016;
 }
 
 #portamento_container #menu-container.fixed {
-    background: #254E69;
+    background: #c3d973;
 }
 
 /* ==============
@@ -159,7 +164,7 @@ nav a:hover {
 }
 
 .footer-container footer {
-    color: #EEE;
+    color: #2d5016;
     padding: 20px 0;
 }
 
@@ -176,7 +181,7 @@ nav a:hover {
    ========================================================================== */
 
 .header-container {
-	height: 160px;
+	height: 115px;
 	padding: 10px 0;
 }
 
