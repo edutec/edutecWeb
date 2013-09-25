@@ -7,7 +7,7 @@ button,
 input,
 select,
 textarea {
-    color: #4A4A4A;
+    color: #151d0f;
 }
 
 body {
@@ -65,14 +65,16 @@ textarea {
 }
 
 #portamento_container #menu-container.fixed {
+	z-index: 1;
    	position:fixed;
 	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px;
 }
 
 #menu-container.fixed a,
 #menu-container.fixed a:hover,
 #menu-container.fixed a:visited {
-    color: #EEE;
+	color: #2d5016;
 }
 
 
@@ -81,7 +83,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+	font-family: 'Istok Web', sans-serif;
 }
 
 .wrapper {
@@ -98,10 +100,9 @@ body {
     background: #c3d973;
 }
 .main aside {
-	border-radius: 2px;
-	background: #ff980d;
+	background: #2d5016;
+	color: #dde9af;
 }
-
 
 .footer-container {
     border-top: 5px solid #2d5016;
@@ -149,19 +150,17 @@ nav a:hover {
     MOBILE: Main
    ============== */
 
-.main article {
-	padding-top: 36px;
-}
-
 .main article h1 {
     font-size: 2em;
 }
 
+/*
 .main aside {
     margin: 52px 0;
     color: #EEE;
     padding: 0px 5% 10px;
 }
+*/
 
 .footer-container footer {
     color: #2d5016;
@@ -185,13 +184,8 @@ nav a:hover {
 	padding: 10px 0;
 }
 
-.balloon {
-	float: right;
-	margin-top: -70px;
-	margin-right: -25px;
-}
-
 .avatar {
+	border: 5px solid #2d5016;
 	margin-right: 10px;
 	float: left;
 }
@@ -202,9 +196,17 @@ a {
 }
 
 a:hover {
-	text-shadow: 0px 0px 6px rgba(0,0,0,0.4);
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
 }
 
+.main-container {
+	background-image: url("../img/turtlecat.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+}
+
+/*
 .language-selectors {
 	position: absolute;
 	top: 0;
@@ -213,6 +215,7 @@ a:hover {
 	font-weight: bold;
 	color: #E0E0E0;
 }
+*/
 
 /* ==========================================================================
    Media Queries
@@ -275,14 +278,17 @@ a:hover {
 
     .main article {
         float: left;
-        width: 57%;
+        width: 100%;
+/*        width: 57%;*/
     }
 
+/*
     .main aside {
         float: right;
         width: 28%;
     }
 }
+*/
 
 @media only screen and (min-width: 1140px) {
 
@@ -293,6 +299,7 @@ a:hover {
     .wrapper , #portamento_container nav.fixed {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
+		z-index: 1;
     }
 }
 
