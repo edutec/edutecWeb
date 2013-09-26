@@ -1,15 +1,27 @@
+var switchImage = false;
+
 function slideTo(cssClass) {
 	$('html, body').animate({ scrollTop: $(cssClass).offset().top - 46 }, 250);
 };
 
 function moveCat() {
-	var currentTop = parseInt($('.main-container').css("background-position").split(" ")[1]);
+	
+	if (switchImage) {
+		$('.main-container').css({ "background-image": 'url("../img/turtlecat2.png")' })
+	} else {
+		$('.main-container').css({ "background-image": 'url("../img/turtlecat.png")' })
+	}
 
-	if (currentTop <= 0) {
-		$('.main-container').css({ "background-position": "100% " + $(window).height() + "px" })
+	var currentTop = parseInt($('.main-container').css("background-position").split(" ")[1]);
+	
+	if (currentTop <= -100) {
+		$('.main-container').css({ "background-position": "100% " + ($(window).height() + 400) + "px" })
 	} else {
 		$('.main-container').css({ "background-position": "100% " + (currentTop - 10) + "px" })
 	}
+
+	switchImage = !switchImage;
+	
 };
 
-setInterval(moveCat,100);
+setInterval(moveCat,250);

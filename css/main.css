@@ -206,6 +206,10 @@ a:hover {
 	background-position: 100% 0;
 }
 
+.footer-container .logo {
+	float: right;
+}
+
 /*
 .language-selectors {
 	position: absolute;
