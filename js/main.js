@@ -7,9 +7,9 @@ function slideTo(cssClass) {
 function moveCat() {
 	
 	if (switchImage) {
-		$('.main-container').css({ "background-image": 'url("../img/turtlecat2.png")' })
+		$('.main-container').css({ "background-image": 'url("img/turtlecat2.png")' })
 	} else {
-		$('.main-container').css({ "background-image": 'url("../img/turtlecat.png")' })
+		$('.main-container').css({ "background-image": 'url("img/turtlecat.png")' })
 	}
 
 	var currentTop = parseInt($('.main-container').css("background-position").split(" ")[1]);
