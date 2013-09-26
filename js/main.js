@@ -24,4 +24,14 @@ function moveCat() {
 	
 };
 
+function pixelate(selector) {
+	if (selector.attr("src").match("pix")) {
+		selector.attr("src", selector.attr("src").replace("-pix",""))
+	} else {
+		selector.attr("src", selector.attr("src").replace(".png","-pix.png"))
+	}
+}
+
 setInterval(moveCat,250);
+
+$(".avatar").hover( function() { pixelate($(this)) });
