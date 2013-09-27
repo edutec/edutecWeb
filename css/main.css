@@ -191,6 +191,7 @@ nav a:hover {
 }
 
 a {
+	text-decoration: underline;
 	color: inherit;
 	cursor: pointer;
 }
