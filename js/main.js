@@ -14,7 +14,7 @@ function moveCat() {
 
 	var currentTop = parseInt($('.main-container').css("background-position").split(" ")[1]);
 	
-	if (currentTop <= -100) {
+	if (currentTop <= -1800) {
 		$('.main-container').css({ "background-position": "100% " + ($(window).height() + 400) + "px" })
 	} else {
 		$('.main-container').css({ "background-position": "100% " + (currentTop - 10) + "px" })
