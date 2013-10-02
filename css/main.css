@@ -71,6 +71,13 @@ textarea {
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px;
 }
 
+#portamento_container #menu-container.fixed .logo {
+	display: block;
+	position: absolute;
+	top: 3px;
+	left: 5px;
+}
+
 #menu-container.fixed a,
 #menu-container.fixed a:hover,
 #menu-container.fixed a:visited {
@@ -106,6 +113,12 @@ body {
 
 .footer-container {
     border-top: 5px solid #2d5016;
+}
+
+.header-container .citilab {
+	position: absolute;
+	right: 30px;
+	top: 37px;
 }
 
 .header-container, 
@@ -207,8 +220,12 @@ a:hover {
 	background-position: 100% 0;
 }
 
-.footer-container .logo {
-	float: right;
+.bordered {
+	border: 5px solid #2d5016;
+}
+
+#menu-container .logo {
+	display: none;
 }
 
 /*
