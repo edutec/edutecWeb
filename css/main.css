@@ -78,6 +78,13 @@ textarea {
 	left: 5px;
 }
 
+#portamento_container #menu-container.fixed .logo-text {
+	display: block;
+	position: absolute;
+	top: 19px;
+	left: 40px;
+}
+
 #menu-container.fixed a,
 #menu-container.fixed a:hover,
 #menu-container.fixed a:visited {
@@ -224,7 +231,7 @@ a:hover {
 	border: 5px solid #2d5016;
 }
 
-#menu-container .logo {
+#menu-container .logo, #menu-container .logo-text {
 	display: none;
 }
 

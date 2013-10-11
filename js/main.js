@@ -1,7 +1,7 @@
 var switchImage = false;
 
 function slideTo(cssClass) {
-	$('html, body').animate({ scrollTop: $(cssClass).offset().top - 46 }, 250);
+	$('html, body').animate({ scrollTop: $(cssClass).offset().top - 35 }, 250);
 };
 
 function moveCat() {
